@@ -14,13 +14,15 @@ li {
     display: flex;
     position: relative;
     margin: auto;
-    width: 50%;
+    width: 700px;
     padding: 10px;
+    justify-content: center;
 }
 
 #top {
     background-color: rgb(171, 255, 61);
     margin: 0;
+    padding: 10px;
 }
 
 #subtopnav a {
@@ -37,4 +39,5 @@ li {
 
 body {
     background-color: darkcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
