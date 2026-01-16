@@ -1,0 +1,40 @@
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(19, 66, 107);
+}
+
+li {
+    float:left
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#top {
+    background-color: rgb(171, 255, 61);
+    margin: 0;
+}
+
+#subtopnav a {
+    padding: 10px;
+    line-height: 2;
+    color: white;
+}
+
+#text-container {
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+}
+
+body {
+    background-color: darkcyan;
+}
