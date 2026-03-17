@@ -85,6 +85,11 @@ p {
     align-items: center;
 }
 
+#download-button-wrapper {
+    align-items: center;
+    display: flex;
+}
+
 #download-button {
     font-size: 25px;
     padding-top: 5px;
