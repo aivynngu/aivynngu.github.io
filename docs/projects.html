@@ -80,7 +80,12 @@
                 <li>Audio systems</li>
             </ul>
         </p>
-        <p>I've compiled a few of my favorite projects to showcase here, linked below:</p>
+        <p>I've compiled a few of my favorite projects to showcase here, linked below (click on the images!):</p>
+
+        <a href = "labs_mariokart/Lab08.html">
+            <img src = "src/art/mariokart.png" style = "height:200px" alt = "Mario Kart">
+        </a>
+
 
         <h3>CSCI-201: Principles of Software Development - Trojan Bites</h3>
         <p>Collaborative month-long project.</p>
@@ -93,8 +98,12 @@
         <h3>CTIN-289: Game Development Fundamentals - Wrong Body</h3>
         <p>Collaborative month-long project.</p>
         <P>I worked with my partner, Kristoffer Kaufmann, to conceptualize and create a short-play puzzle game
-           to improve our skills in game system engineering and design with Unity.  
+           to improve our skills in game system engineering and design with Unity. Though not fully playable
+           as intended in its final state, it was a month-long undertaking in Unity's 2D physics and collisions system.
         </P>
+        <img src = "src/wrongbody1.jpg" style= "width:375px">
+        <img src = "src/wrongbody2.jpg" style = "width: 375px;">
+        <img src = "src/wrongbody3.jpg" style = "width:375px">
 
         <h2>Past Game Jam Projects:</h2>
         <h3>Hit by my own food truck, I was reincarnated into a world where I must fight my own dishes! </h3>
@@ -123,6 +132,30 @@
         
         </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        Back to top
+    </button>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     
 </body>
     

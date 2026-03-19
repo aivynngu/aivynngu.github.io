@@ -49,20 +49,36 @@
                     <img src = "src/art/PineAppleTex1.png" style = "height:200px">
 
                     <p>Plunger/Curtain rod/Bottle Puzzle:</p>
+                    <img src = "src/art/plunger1.png" style = "height:200px">
+                    <img src = "src/art/plunger3.png" style = "height:200px">
+                    <img src = "src/art/plunger2.png" style = "width:400px">
+                    
 
             <h2>Previous Works</h2>
                 <h3>USC Advanced Combat Robotics Team - Sim Arena</h3>
 
 
                     <p>I was requested to make a recreation of BattleBot's Battle Box for the club's autonomous subteam to 
-                        test their newest project's software. Here is the video of it in use:
+                        test their newest project's software. 
                     </p>
 
+                    <p>In use:</p>
                     <video width = "600" controls>
                         <source src = "src/art/battlebox-vid.mov">
                     </video>
 
+                    <p>Textured (not supported in software):</p>
+                    <img src = "src/art/battlebox.png" style = "width:600px">
+
                 <h3>ITP-351: 3D Character Modeling</h3>
+                    <p>This course featured modeling and texturing ready-to-rig characters based off of stylized character 
+                        reference sheets. For this project, I created my own character reference sheet.
+                        Not all features made it into the final model, shown below.
+                    </p>
+
+                    <img src = "src/art/Nguyen_Ai-Vy_Modelsheet.png" style = "width:600px">
+                    <img src = "src/art/Nguyen_Ai-Vy_Final_Model_Wired (1).jpg" style = "width:600px">
+                    <img src = "src/art/Nguyen_Ai-Vy_Final_Model (1).jpg" style = "width:600px">
 
                 <h3>ITP-215: Intro. to 3D Modeling, Animation, and Visual Effects</h3>
                 <p>This course was an introduction to 3D modeling, object rigging, and animation. Below are two objects 
@@ -79,6 +95,30 @@
                 
         </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        Back to top
+    </button>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     
 </body>
     
